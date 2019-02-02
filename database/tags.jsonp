@@ -5,14 +5,18 @@ tagstr = `
             "MATLAB",
             "JavaScript",
             "JSON",
-            "Swift"
+            "Swift",
+            "Marketing",
+            "Managing",
+            "iOS",
+            "Databases"
         ],
         "positions" : [
             "MATLAB Enthusiast",
-            "Swift Fan",
+            "Product Marketing Manager",
             "Database Designer",
-            "Token CompSci",
-            "Business Lead"
+            "Computer Lead",
+            "Lead iOS Developer"
         ],
         "departments" : [
             "Engineering Physics",

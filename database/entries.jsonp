@@ -2,7 +2,7 @@ entrystr = `
 {
     "entries" : [
         {
-            "id" : 0,
+            "id" : 2,
             "name" : "Kevin Huang",
             "position" : "MATLAB Enthusiast",
             "department" : "Engineering Physics",
@@ -10,36 +10,36 @@ entrystr = `
             "busy" : true
         },
         {
-            "id" : 1,
+            "id" : 4,
             "name" : "Tyler Lum",
             "position" : "Database Designer",
             "department" : "Engineering Physics",
-            "skills" : ["JavaScript","JSON"],
+            "skills" : ["JavaScript","JSON","Databases"],
             "busy" : true
         },
         {
-            "id" : 2,
+            "id" : 1,
             "name" : "Joel Tecson",
-            "position" : "Swift Fan",
+            "position" : "Product Marketing Manager",
             "department" : "Engineering Physics",
-            "skills" : ["Swift", "JavaScript","JSON"],
+            "skills" : ["Swift", "JavaScript","JSON","Marketing","Managing"],
             "busy" : false
         },
         {
             "id" : 3,
             "name" : "Alistair Yee",
-            "position" : "Token CompSci",
+            "position" : "Computer Lead",
             "department" : "Computer Science",
             "skills" : [ "JavaScript","JSON"],
             "busy" : false
         },
         {
-            "id" : 4,
+            "id" : 0,
             "name" : "Charles Qian",
-            "position" : "Business Lead",
+            "position" : "Lead iOS Developer",
             "department" : "Engineering Physics",
-            "skills" : ["Commerce", "JavaScript","JSON"],
-            "busy" : false
+            "skills" : ["Commerce", "JavaScript","JSON","iOS"],
+            "busy" : true
         }
     ]
 }`;
