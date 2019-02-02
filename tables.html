@@ -38,7 +38,7 @@
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Tables</h1>
           <p class="mb-4">Dynamic list of discovered employees</p>
-
+          <div class="card-body" id ="tagbuttons"></div>
           <!-- DataTables -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
@@ -106,7 +106,12 @@
   <script src="database/entries.jsonp"></script>
   <script src="database/database.js"></script>
   <script>
+      var currenttags = ["MATLAB Enthusiast","JSON","JavaScript"];
       document.getElementById("entries").innerHTML = htmlFromEntries(filterSkill(entries,["MATLAB ENTHUSIAST","JSON"]));
+      document.getElementById("tagbuttons").innerHTML = htmlFromTags(currenttags);
+      function updateTags(currenttags){
+        document.getElementById("tagbuttons").innerHTML = htmlFromTags(currenttags);
+      }
   </script>
 
 </body>

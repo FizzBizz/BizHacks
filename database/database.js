@@ -52,3 +52,26 @@ function filterSkill(entries,tags){
 function compareString(string1,string2){
     return (string1.toUpperCase() == string2.toUpperCase());
 }
+
+// Generate html buttons from list of tags
+function htmlFromTags(tags){
+    var htmlout = '';
+    for (var i = 0; i<tags.length; i++){
+        htmlout += `<a href="#" onclick= "currenttags=removeTag(currenttags,`;
+        htmlout += i;
+        htmlout += `); updateTags(currenttags);" class="btn btn-primary btn-icon-split">
+         <span class="icon text-white-50">
+         <i class="fas fa-flag"></i>
+         </span>
+         <span class="text">`;
+         htmlout += tags[i];
+         htmlout += "</span></a><hspace>&nbsp;&nbsp;";
+    }
+    return htmlout;
+}
+
+// Removes a tag from a list of tags
+function removeTag(tags,ind){
+    tags.splice(ind,1);
+    return tags;
+}
