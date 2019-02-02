@@ -111,6 +111,7 @@
       document.getElementById("tagbuttons").innerHTML = htmlFromTags(currenttags);
       function updateTags(currenttags){
         document.getElementById("tagbuttons").innerHTML = htmlFromTags(currenttags);
+        document.getElementById("entries").innerHTML = htmlFromEntries(filterSkill(entries,currenttags));
       }
   </script>
 
