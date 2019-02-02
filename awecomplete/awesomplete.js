@@ -105,7 +105,8 @@ var _ = function (input, o) {
 			// The click event is fired even if the corresponding mousedown event has called preventDefault
 			"click": function(evt) {
 				var li = evt.target;
-
+				currenttags.push(li.textContent);
+				updateTags(currenttags);
 				if (li !== this) {
 
 					while (li && !/li/i.test(li.nodeName)) {
