@@ -1,4 +1,5 @@
 var entries = JSON.parse(entrystr).entries;
+var tags = JSON.parse(tagstr).tags;
 
 // Returns html string for table entries from list of entries
 function htmlFromEntries(entries){
@@ -47,6 +48,7 @@ function filterSkill(entries,tags){
     return filtered;
 }
 
+// Compares two strings (case insensitive)
 function compareString(string1,string2){
     return (string1.toUpperCase() == string2.toUpperCase());
 }
