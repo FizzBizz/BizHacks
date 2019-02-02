@@ -6,7 +6,7 @@ entrystr = `
             "name" : "Charles Qian",
             "position" : "Lead iOS Developer",
             "department" : "Best Buy iOS App",
-            "skills" : ["Commerce", "JavaScript","JSON","C#","PowerPoint"],
+            "skills" : ["JavaScript","JSON","C#","PowerPoint"],
             "interests" : ["Public Speaking","Project Management","React","Python"],
             "busy" : true
         },
@@ -16,7 +16,7 @@ entrystr = `
             "position" : "Product Marketing Manager",
             "department" : "Social Media Marketing",
             "skills" : ["Swift", "JavaScript","JSON","Marketing","Project Management"],
-            "interests" : ["Commerce"],
+            "interests" : ["Python"],
             "busy" : false
         },
         {
@@ -34,7 +34,7 @@ entrystr = `
             "position" : "Python Developer",
             "department" : "Automation Scripting",
             "skills" : [ "JavaScript","JSON","Python"],
-            "interests" : ["Commerce","iOS"],
+            "interests" : ["iOS"],
             "busy" : false
         },
         {
@@ -43,8 +43,62 @@ entrystr = `
             "position" : "Database Designer",
             "department" : "Database Design",
             "skills" : ["JavaScript","JSON","Databases"],
-            "interests" : ["Commerce","iOS"],
+            "interests" : ["iOS"],
             "busy" : true
-        }        
+        },
+        {
+            "id" : 5,
+            "name" : "Placeholder",
+            "position" : "Database Designer",
+            "department" : "Database Design",
+            "skills" : ["JavaScript","Python"],
+            "interests" : ["iOS","Databases"],
+            "busy" : true
+        },
+        {
+            "id" : 6,
+            "name" : "Placeholder",
+            "position" : "Python Developer",
+            "department" : "Automation Scripting",
+            "skills" : ["Public Speaking","JSON"],
+            "interests" : ["MATLAB","Swift"],
+            "busy" : true
+        },
+        {
+            "id" : 7,
+            "name" : "Placeholder",
+            "position" : "Python Developer",
+            "department" : "Automation Scripting",
+            "skills" : ["Public Speaking","JSON"],
+            "interests" : ["MATLAB","Swift"],
+            "busy" : true
+        },
+        {
+            "id" : 8,
+            "name" : "Placeholder",
+            "position" : "Python Developer",
+            "department" : "Automation Scripting",
+            "skills" : ["Public Speaking","JSON"],
+            "interests" : ["MATLAB","Swift"],
+            "busy" : true
+        },
+        {
+            "id" : 9,
+            "name" : "Placeholder",
+            "position" : "Python Developer",
+            "department" : "Automation Scripting",
+            "skills" : ["Public Speaking","JSON"],
+            "interests" : ["MATLAB","Swift"],
+            "busy" : true
+        },
+        {
+            "id" : 10,
+            "name" : "Placeholder",
+            "position" : "Python Developer",
+            "department" : "Automation Scripting",
+            "skills" : ["Public Speaking","JSON"],
+            "interests" : ["MATLAB","Swift"],
+            "busy" : true
+        }                                           
     ]
 }`;
