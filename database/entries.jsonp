@@ -28,7 +28,7 @@ entrystr = `
             "name" : "Kevin Huang",
             "position" : "Data Analyst",
             "department" : "Retail Analytics",
-            "skills" : ["MATLAB", "Python"],
+            "skills" : ["Java","MATLAB", "Python"],
             "interests" : ["JavaScript","JSON"],
             "project": ["Best Buy iOS App","Employee Database","BestBuy.ca"],
             "mentor" : ["MATLAB","Python"],
