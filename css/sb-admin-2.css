@@ -505,7 +505,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #003b64;
   word-break: break-word;
 }
 
@@ -11454,24 +11454,19 @@ form.user .btn-user {
 }
 
 .btn-skills {
-  transition: width .2s;
   color: #fff;
-  background-color: #ea4335;
+  background-color: #003b64;
+  pointer-events: none;
 }
 
-.btn-skills:hover {
-  width: 100px;
-  border-radius: 25px;
-} 
-
-.btn-skills .btn-text {
+/* .btn-skills .btn-text {
   display: none;
 }
 
 .btn-skills:hover .btn-text{
   display: inline-block;
   color: #fff;
-}
+} */
 
 .btn-skills i {
   display: flex;
@@ -11485,13 +11480,13 @@ form.user .btn-user {
 
 .btn-google {
   color: #fff;
-  background-color: #ea4335;
+  background-color: #004b74;
   border-color: #fff;
 }
 
 .btn-google:hover {
   color: #fff;
-  background-color: #ea4335;
+  background-color: #003b64;
   border-color: #e6e6e6;
 }
 
@@ -11509,8 +11504,8 @@ form.user .btn-user {
 .btn-google:not(:disabled):not(.disabled):active, .btn-google:not(:disabled):not(.disabled).active,
 .show > .btn-google.dropdown-toggle {
   color: #fff;
-  background-color: #d62516;
-  border-color: #dfdfdf;
+  background-color: #003b64;
+  border-color: #fff;
 }
 
 .btn-google:not(:disabled):not(.disabled):active:focus, .btn-google:not(:disabled):not(.disabled).active:focus,
