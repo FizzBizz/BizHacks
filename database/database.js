@@ -6,7 +6,7 @@ function htmlFromEntries(entries){
     var htmlout = '';
     for (var i = 0; i<entries.length; i++){
         htmlout += '<tr>';
-        htmlout += '<td>'+entries[i].name+'</td>';
+        htmlout += `<td><a href="database/`+ i +`.html">`+entries[i].name+'</a></td>';
         htmlout += '<td>'+entries[i].position+'</td>';
         htmlout += '<td>'+entries[i].department+'</td>';
         htmlout += '</tr>';
