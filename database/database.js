@@ -40,6 +40,9 @@ function filterSkill(entries,tags){
             if (compareString(entries[i].department,tags[j])){
                 tagcount++;
             }
+            if (compareString(entries[i].name,tags[j])){
+                tagcount++;
+            }
         }
         if (tagcount == tags.length){
         filtered.push(entries[i]);
@@ -87,6 +90,9 @@ function listTags(tags){
     }
     for (var i = 0; i< tags.positions.length;i++){
         liststr += tags.positions[i] + ",";
+    }
+    for (var i = 0; i< tags.names.length;i++){
+        liststr += tags.names[i] + ",";
     }
     return liststr;
 }

@@ -5,7 +5,7 @@ entrystr = `
             "id" : 0,
             "name" : "Charles Qian",
             "position" : "Lead iOS Developer",
-            "department" : "Engineering Physics",
+            "department" : "Best Buy iOS App",
             "skills" : ["Commerce", "JavaScript","JSON","iOS"],
             "busy" : true
         },
@@ -13,23 +13,23 @@ entrystr = `
             "id" : 1,
             "name" : "Joel Tecson",
             "position" : "Product Marketing Manager",
-            "department" : "Engineering Physics",
+            "department" : "Social Media Marketing",
             "skills" : ["Swift", "JavaScript","JSON","Marketing","Managing"],
             "busy" : false
         },
         {
             "id" : 2,
             "name" : "Kevin Huang",
-            "position" : "MATLAB Enthusiast",
-            "department" : "Engineering Physics",
+            "position" : "Data Analyst",
+            "department" : "Retail Analytics",
             "skills" : ["MATLAB", "JavaScript","JSON"],
             "busy" : true
         }, 
         {
             "id" : 3,
             "name" : "Alistair Yee",
-            "position" : "Computer Lead",
-            "department" : "Computer Science",
+            "position" : "Python Developer",
+            "department" : "Automation Scripting",
             "skills" : [ "JavaScript","JSON"],
             "busy" : false
         },
@@ -37,7 +37,7 @@ entrystr = `
             "id" : 4,
             "name" : "Tyler Lum",
             "position" : "Database Designer",
-            "department" : "Engineering Physics",
+            "department" : "Database Design",
             "skills" : ["JavaScript","JSON","Databases"],
             "busy" : true
         }        

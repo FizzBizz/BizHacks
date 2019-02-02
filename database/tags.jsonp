@@ -12,15 +12,25 @@ tagstr = `
             "Databases"
         ],
         "positions" : [
-            "MATLAB Enthusiast",
+            "Data Analyst",
             "Product Marketing Manager",
             "Database Designer",
-            "Computer Lead",
+            "Python Developer",
             "Lead iOS Developer"
         ],
         "departments" : [
-            "Engineering Physics",
-            "Computer Science"
+            "Best Buy iOS App",
+            "Computer Science",
+            "Automation Scripting",
+            "Database Design",
+            "Social Media Marketing"
+        ],
+        "names" : [
+            "Kevin Huang",
+            "Alistair Yee",
+            "Charles Qian",
+            "Joel Tecson",
+            "Tyler Lum"
         ]
     }
 }`;
