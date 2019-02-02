@@ -5,9 +5,11 @@ entrystr = `
             "id" : 0,
             "name" : "Charles Qian",
             "position" : "Lead iOS Developer",
-            "department" : "Best Buy iOS App",
-            "skills" : ["JavaScript","JSON","C#","PowerPoint"],
+            "department" : "Best Buy iOS Team",
+            "skills" : ["JSON","C#","JavaScript","PowerPoint"],
             "interests" : ["Public Speaking","Project Management","React","Python"],
+            "project": ["Best Buy iOS App","Employee Database","BestBuy.ca"],
+            "mentor" : ["JavaScript","PowerPoint"],
             "busy" : true
         },
         {
@@ -15,8 +17,10 @@ entrystr = `
             "name" : "Joel Tecson",
             "position" : "Product Marketing Manager",
             "department" : "Social Media Marketing",
-            "skills" : ["Swift", "JavaScript","JSON","Marketing","Project Management"],
+            "skills" : ["Swift", "JavaScript","JSON","Project Management","Marketing"],
             "interests" : ["Python"],
+            "project": ["Best Buy iOS App","Best Buy Reserve and Pick-Up Service","BestBuy.ca"],
+            "mentor" : ["Marketing"],
             "busy" : false
         },
         {
@@ -26,6 +30,8 @@ entrystr = `
             "department" : "Retail Analytics",
             "skills" : ["MATLAB", "Python"],
             "interests" : ["JavaScript","JSON"],
+            "project": ["Best Buy iOS App","Employee Database","BestBuy.ca"],
+            "mentor" : ["MATLAB","Python"],
             "busy" : true
         }, 
         {
@@ -33,8 +39,10 @@ entrystr = `
             "name" : "Alistair Yee",
             "position" : "Python Developer",
             "department" : "Automation Scripting",
-            "skills" : [ "JavaScript","JSON","Python"],
+            "skills" : [ "JavaScript","Python","JSON"],
             "interests" : ["iOS"],
+            "project": ["Best Buy iOS App","Employee Database","BestBuy.ca"],
+            "mentor" : ["JSON"],
             "busy" : false
         },
         {
@@ -44,6 +52,8 @@ entrystr = `
             "department" : "Database Design",
             "skills" : ["JavaScript","JSON","Databases"],
             "interests" : ["iOS"],
+            "project": ["Best Buy iOS App","Employee Database","BestBuy.ca"],
+            "mentor" : ["Databases"],
             "busy" : true
         },
         {
@@ -53,6 +63,8 @@ entrystr = `
             "department" : "Database Design",
             "skills" : ["JavaScript","Python"],
             "interests" : ["iOS","Databases"],
+            "project": [],
+            "mentor" : [],
             "busy" : true
         },
         {
@@ -62,6 +74,8 @@ entrystr = `
             "department" : "Automation Scripting",
             "skills" : ["Public Speaking","JSON"],
             "interests" : ["MATLAB","Swift"],
+            "project": [],
+            "mentor" : [],
             "busy" : true
         },
         {
@@ -71,6 +85,8 @@ entrystr = `
             "department" : "Automation Scripting",
             "skills" : ["Public Speaking","JSON"],
             "interests" : ["MATLAB","Swift"],
+            "project": [],
+            "mentor" : [],
             "busy" : true
         },
         {
@@ -80,6 +96,8 @@ entrystr = `
             "department" : "Automation Scripting",
             "skills" : ["Public Speaking","JSON"],
             "interests" : ["MATLAB","Swift"],
+            "project": [],
+            "mentor" : [],
             "busy" : true
         },
         {
@@ -89,6 +107,8 @@ entrystr = `
             "department" : "Automation Scripting",
             "skills" : ["Public Speaking","JSON"],
             "interests" : ["MATLAB","Swift"],
+            "project": [],
+            "mentor" : [],
             "busy" : true
         },
         {
@@ -98,6 +118,8 @@ entrystr = `
             "department" : "Automation Scripting",
             "skills" : ["Public Speaking","JSON"],
             "interests" : ["MATLAB","Swift"],
+            "project": [],
+            "mentor" : [],
             "busy" : true
         }                                           
     ]

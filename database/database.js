@@ -9,6 +9,18 @@ function htmlFromEntries(entries){
         htmlout += `<td><a href="`+ entries[i].id +`.html">`+entries[i].name+'</a></td>';
         htmlout += '<td>'+entries[i].position+'</td>';
         htmlout += '<td>'+entries[i].department+'</td>';
+        htmlout += '<td>';
+        var mento = '';
+        if (entries[i].mentor.length != 0){
+            for (var j = 0; j< entries[i].mentor.length; j++){
+                mento += entries[i].mentor[j];
+                mento += ', ';
+            }
+            htmlout += mento.substring(0,mento.length-2);
+        } else {
+            htmlout += "N/A";
+        }
+        htmlout += '</td>';
         htmlout += '</tr>';
     }
     return htmlout;
@@ -36,6 +48,11 @@ function filterSkill(entries,tags){
             }
             for (var k = 0; k<entries[i].interests.length; k++){
                 if (compareString(entries[i].interests[k],tags[j])){
+                    tagcount++;
+                }
+            }
+            for (var k = 0; k<entries[i].project.length; k++){
+                if (compareString(entries[i].project[k],tags[j])){
                     tagcount++;
                 }
             }
@@ -99,14 +116,21 @@ function listTags(tags){
     for (var i = 0; i< tags.names.length;i++){
         liststr += tags.names[i] + ",";
     }
+    for (var i = 0; i< tags.projects.length;i++){
+        liststr += tags.projects[i] + ",";
+    }
     return liststr;
 }
 
 // Generate skills buttons
-function htmlSkills(skills){
+function htmlSkills(skills,mentor){
     var htmlout = '';
     for (var i = 0; i<skills.length; i++){
-        htmlout+= `<a href="#" class="btn btn-skills">
+        htmlout+= `<a href="#" class="btn btn-skills"`;
+        if (!mentor.includes(skills[i])){
+            htmlout+=` style="background-color:#0092df"`;
+        }
+        htmlout+= `>
                     <!-- <i class="fab fa-java"></i> -->
                     <span class="btn-text">`+skills[i]+`</span> </a>&nbsp;`
     }
