@@ -14,7 +14,7 @@ entrystr = `
             "name" : "Joel Tecson",
             "position" : "Product Marketing Manager",
             "department" : "Social Media Marketing",
-            "skills" : ["Swift", "JavaScript","JSON","Marketing","Managing"],
+            "skills" : ["Swift", "JavaScript","JSON","Marketing","Project Management"],
             "busy" : false
         },
         {
