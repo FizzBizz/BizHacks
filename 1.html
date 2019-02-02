@@ -133,43 +133,18 @@
                 </div>
                 <div class="card-body">
                   <div class="mb-2">
-                    <code>App Development</code>
+                    <code>Proficient in</code>
                   </div>
-                  <a href="#" class="btn btn-primary btn-circle">
-                    <i class="fab fa-facebook-messenger"></i>
-                  </a>
-                  <a href="#" class="btn btn-success btn-circle">
-                    <i class="fas fa-check"></i>
-                  </a>
-                  <a href="#" class="btn btn-info btn-circle">
-                    <i class="fas fa-info-circle"></i>
-                  </a>
-                  <a href="#" class="btn btn-warning btn-circle">
-                    <i class="fas fa-exclamation-triangle"></i>
-                  </a>
-                  <a href="#" class="btn btn-danger btn-circle">
-                    <i class="fas fa-trash"></i>
-                  </a>
+                  <div class="mb-2" id="proficient"></div>
+
+                  <!-- Divider -->
+                  <hr class="sidebar-divider">
 
                   <!-- Circle Buttons (Large) -->
-                  <div class="mt-4 mb-2">
-                    <code>.btn-circle .btn-lg</code>
+                  <div class="mb-2">
+                    <code>Interested in</code>
                   </div>
-                  <a href="#" class="btn btn-primary btn-circle btn-lg">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#" class="btn btn-success btn-circle btn-lg">
-                    <i class="fas fa-check"></i>
-                  </a>
-                  <a href="#" class="btn btn-info btn-circle btn-lg">
-                    <i class="fas fa-info-circle"></i>
-                  </a>
-                  <a href="#" class="btn btn-warning btn-circle btn-lg">
-                    <i class="fas fa-exclamation-triangle"></i>
-                  </a>
-                  <a href="#" class="btn btn-danger btn-circle btn-lg">
-                    <i class="fas fa-trash"></i>
-                  </a>
+                  <div class="mb-2" id="interest"></div>
                 </div>
               </div>
               <div class="card shadow mb-4">
@@ -260,6 +235,16 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+
+  <script src="database/entries.jsonp"></script>
+  <script src="database/tags.jsonp"></script>
+  <script src="database/database.js"></script>
+  <script>
+    var id = 1;
+    var entry = entryFromId(entries,id);
+    document.getElementById("proficient").innerHTML = htmlSkills(entry.skills);
+    document.getElementById("interest").innerHTML = htmlSkills(entry.interests);
+  </script>
 
 </body>
 
