@@ -34,6 +34,11 @@ function filterSkill(entries,tags){
                     tagcount++;
                 }
             }
+            for (var k = 0; k<entries[i].interests.length; k++){
+                if (compareString(entries[i].interests[k],tags[j])){
+                    tagcount++;
+                }
+            }
             if (compareString(entries[i].position,tags[j])){
                 tagcount++;
             }

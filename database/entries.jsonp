@@ -7,6 +7,7 @@ entrystr = `
             "position" : "Lead iOS Developer",
             "department" : "Best Buy iOS App",
             "skills" : ["Commerce", "JavaScript","JSON","iOS"],
+            "interests" : ["Public Speaking","Project Management"],
             "busy" : true
         },
         {
@@ -15,6 +16,7 @@ entrystr = `
             "position" : "Product Marketing Manager",
             "department" : "Social Media Marketing",
             "skills" : ["Swift", "JavaScript","JSON","Marketing","Project Management"],
+            "interests" : ["Commerce"],
             "busy" : false
         },
         {
@@ -22,7 +24,8 @@ entrystr = `
             "name" : "Kevin Huang",
             "position" : "Data Analyst",
             "department" : "Retail Analytics",
-            "skills" : ["MATLAB", "JavaScript","JSON"],
+            "skills" : ["MATLAB", "Python"],
+            "interests" : ["JavaScript","JSON"],
             "busy" : true
         }, 
         {
@@ -30,7 +33,8 @@ entrystr = `
             "name" : "Alistair Yee",
             "position" : "Python Developer",
             "department" : "Automation Scripting",
-            "skills" : [ "JavaScript","JSON"],
+            "skills" : [ "JavaScript","JSON","Python"],
+            "interests" : ["Commerce","iOS"],
             "busy" : false
         },
         {
@@ -39,6 +43,7 @@ entrystr = `
             "position" : "Database Designer",
             "department" : "Database Design",
             "skills" : ["JavaScript","JSON","Databases"],
+            "interests" : ["Commerce","iOS"],
             "busy" : true
         }        
     ]
