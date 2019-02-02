@@ -1,0 +1,28 @@
+tags = `
+{
+    "total" : [
+        {
+            "skills" : [
+                "MATLAB",
+                "JavaScript",
+                "JSON",
+                "Swift"
+            ]
+        }, 
+        {
+            "positions" : [
+                "MATLAB Enthusiast",
+                "Swift Fan",
+                "Database Designer",
+                "Token CompSci",
+                "Business Lead"
+            ]
+        }, 
+        {
+            "departments" : [
+                "Engineering Physics",
+                "Computer Science"
+            ]
+        }
+    ]
+}`;
