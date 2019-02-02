@@ -11453,6 +11453,36 @@ form.user .btn-user {
   padding: 0.75rem 1rem;
 }
 
+.btn-skills {
+  transition: width .2s;
+  color: #fff;
+  background-color: #ea4335;
+}
+
+.btn-skills:hover {
+  width: 100px;
+  border-radius: 25px;
+} 
+
+.btn-skills .btn-text {
+  display: none;
+}
+
+.btn-skills:hover .btn-text{
+  display: inline-block;
+  color: #fff;
+}
+
+.btn-skills i {
+  display: flex;
+}
+
+.btn-skills:hover i {
+  color: #fff;
+  align-self: left;
+  margin-right: 0.5rem;
+}
+
 .btn-google {
   color: #fff;
   background-color: #ea4335;
@@ -11461,7 +11491,7 @@ form.user .btn-user {
 
 .btn-google:hover {
   color: #fff;
-  background-color: #e12717;
+  background-color: #ea4335;
   border-color: #e6e6e6;
 }
 
@@ -11487,7 +11517,7 @@ form.user .btn-user {
 .show > .btn-google.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
-}
+} */
 
 .btn-facebook {
   color: #fff;
