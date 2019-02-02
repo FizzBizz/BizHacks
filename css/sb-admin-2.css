@@ -509,6 +509,10 @@ code {
   word-break: break-word;
 }
 
+code.red {
+  color: #003b64;
+ }
+
 a > code {
   color: inherit;
 }
