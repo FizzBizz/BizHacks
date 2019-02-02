@@ -75,3 +75,18 @@ function removeTag(tags,ind){
     tags.splice(ind,1);
     return tags;
 }
+
+// Generate list of tags for autocomplete
+function listTags(tags){
+    var liststr = "";
+    for (var i = 0; i< tags.skills.length;i++){
+        liststr += tags.skills[i] + ",";
+    }
+    for (var i = 0; i< tags.departments.length;i++){
+        liststr += tags.departments[i] + ",";
+    }
+    for (var i = 0; i< tags.positions.length;i++){
+        liststr += tags.positions[i] + ",";
+    }
+    return liststr;
+}
