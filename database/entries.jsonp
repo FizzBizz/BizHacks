@@ -1,0 +1,45 @@
+entrystr = `
+{
+    "entries" : [
+        {
+            "id" : 0,
+            "name" : "Kevin Huang",
+            "position" : "MATLAB Enthusiast",
+            "department" : "Engineering Physics",
+            "skills" : ["MATLAB", "JavaScript","JSON"],
+            "busy" : true
+        },
+        {
+            "id" : 1,
+            "name" : "Tyler Lum",
+            "position" : "Database Designer",
+            "department" : "Engineering Physics",
+            "skills" : ["JavaScript","JSON"],
+            "busy" : true
+        },
+        {
+            "id" : 2,
+            "name" : "Joel Tecson",
+            "position" : "Swift Fan",
+            "department" : "Engineering Physics",
+            "skills" : ["Swift", "JavaScript","JSON"],
+            "busy" : false
+        },
+        {
+            "id" : 3,
+            "name" : "Alistair Yee",
+            "position" : "Token CompSci",
+            "department" : "Computer Science",
+            "skills" : [ "JavaScript","JSON"],
+            "busy" : false
+        },
+        {
+            "id" : 4,
+            "name" : "Charles Qian",
+            "position" : "Business Lead",
+            "department" : "Engineering Physics",
+            "skills" : ["Commerce", "JavaScript","JSON"],
+            "busy" : false
+        }
+    ]
+}`;
