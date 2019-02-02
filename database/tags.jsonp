@@ -10,7 +10,12 @@ tagstr = `
             "Project Management",
             "iOS",
             "Databases",
-            "Python"
+            "Python",
+            "Java",
+            "React",
+            "C#",
+            "PowerPoint",
+            "Public Speaking"
         ],
         "positions" : [
             "Data Analyst",
@@ -21,7 +26,7 @@ tagstr = `
         ],
         "departments" : [
             "Best Buy iOS App",
-            "Computer Science",
+            "Retail Analytics",
             "Automation Scripting",
             "Database Design",
             "Social Media Marketing"

@@ -137,48 +137,18 @@
                 </div>
                 <div class="card-body">
                   <div class="mb-2">
-                    <code>Technical Skills</code>
+                    <code>Proficient in</code>
                   </div>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fab fa-java"></i> -->
-                    <span class="btn-text">Java</span>
-                  </a>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fas fa-js-square"></i> -->
-                    <span class="btn-text">JavaScript</span>
-                  </a>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fas fa-info-circle"></i> -->
-                    <span class="btn-text">React</span>
-                  </a>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fas fa-exclamation-triangle"></i> -->
-                    <span class="btn-text">Python</span>
-                  </a>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fas fa-trash"></i> -->
-                    <span class="btn-text">C#</span>
-                  </a>
+                  <div class="mb-2" id="proficient"></div>
 
                   <!-- Divider -->
                   <hr class="sidebar-divider">
 
                   <!-- Circle Buttons (Large) -->
                   <div class="mb-2">
-                    <code>Business and Communication Skills</code>
+                    <code>Interested in</code>
                   </div>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fab fa-java"></i> -->
-                    <span class="btn-text">PowerPoint</span>
-                  </a>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fas fa-js-square"></i> -->
-                    <span class="btn-text">Project Management</span>
-                  </a>
-                  <a href="#" class="btn btn-skills">
-                    <!-- <i class="fas fa-info-circle"></i> -->
-                    <span class="btn-text">Public Speaking</span>
-                  </a>
+                  <div class="mb-2" id="interest"></div>
                 </div>
               </div>
               <div class="card shadow mb-4">
@@ -262,9 +232,12 @@
 
   <script src="database/entries.jsonp"></script>
   <script src="database/tags.jsonp"></script>
-  <script src="database/database.js">
-  var id = 0;
-  var entry = entryFromId(entries,id);
+  <script src="database/database.js"></script>
+  <script>
+    var id = 0;
+    var entry = entryFromId(entries,id);
+    document.getElementById("proficient").innerHTML = htmlSkills(entry.skills);
+    document.getElementById("interest").innerHTML = htmlSkills(entry.interests);
   </script>
 
 </body>

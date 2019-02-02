@@ -6,8 +6,8 @@ entrystr = `
             "name" : "Charles Qian",
             "position" : "Lead iOS Developer",
             "department" : "Best Buy iOS App",
-            "skills" : ["Commerce", "JavaScript","JSON","iOS"],
-            "interests" : ["Public Speaking","Project Management"],
+            "skills" : ["Commerce", "JavaScript","JSON","C#","PowerPoint"],
+            "interests" : ["Public Speaking","Project Management","React","Python"],
             "busy" : true
         },
         {

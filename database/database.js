@@ -101,3 +101,14 @@ function listTags(tags){
     }
     return liststr;
 }
+
+// Generate skills buttons
+function htmlSkills(skills){
+    var htmlout = '';
+    for (var i = 0; i<skills.length; i++){
+        htmlout+= `<a href="#" class="btn btn-skills">
+                    <!-- <i class="fab fa-java"></i> -->
+                    <span class="btn-text">`+skills[i]+`</span> </a>&nbsp;`
+    }
+    return htmlout;
+}
